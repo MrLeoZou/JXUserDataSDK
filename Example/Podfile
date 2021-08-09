@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JXUserDataSDK_Example' do
+  pod 'JXUserDataSDK', :path => '../'
+
+  target 'JXUserDataSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
