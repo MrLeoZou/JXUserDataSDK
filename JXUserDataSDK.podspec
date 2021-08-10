@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/MrLeoZou@gmail.com/JXUserDataSDK'
+  s.homepage         = 'https://github.com/MrLeoZou/JXUserDataSDK.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MrLeoZou@gmail.com' => 'roczpzou@tencent.com' }
-  s.source           = { :git => 'https://github.com/MrLeoZou@gmail.com/JXUserDataSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MrLeoZou/JXUserDataSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'JXUserDataSDK' => ['JXUserDataSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/JXUserDataSDK.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
